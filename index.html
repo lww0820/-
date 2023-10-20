@@ -11,6 +11,7 @@
     <script src="js/echarts.min.js"></script>
     <script src="js/flexible.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/china.js"></script>
 </head>
 
 <body>
@@ -310,22 +311,90 @@
                 <div class="channel panel">
                     <div class="inner">
                         <h3>渠道分布</h3>
+                        <div class="data">
+                            <div class="radar"></div>
+                        </div>
                     </div>
                 </div>
                 <!-- 销售进度 -->
                 <div class="quarter panel">
                     <div class="inner">
                         <h3>一季度销售进度</h3>
+                        <div class="chart">
+                            <div class="gauge">
+
+                            </div>
+                            <div class="label">50 <small>%</small></div>
+                        </div>
+                        <div class="data">
+                            <div class="item">
+                                <h4>1321</h4>
+                                <span><i class="iconfont icon-dot"></i>销售额（万元）</span>
+                            </div>
+                            <div class="item">
+                                <h4>1321</h4>
+                                <span><i class="iconfont icon-dot"></i>销售额（万元）</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--排行-->
             <div class="top panel">
-                <div class="inner">3</div>
+                <div class="inner">
+                    <div class="all">
+                        <h3>全国热榜</h3>
+                        <ul>
+                            <li>
+                                <i class="icon-cup1" style="color: #d93f36;"></i>
+                                可爱多
+                            </li>
+                            <li>
+                                <i class="icon-cup1" style="color: #68d8fe;;"></i>
+                                娃哈哈
+                            </li>
+                            <li>
+                                <i class="icon-cup1" style="color: #4c9bfd;"></i>
+                                喜之郎
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="province">
+                        <h3>各省热榜 <i class="date">// 近30日 //</i></h3>
+                        <div class="data">
+                            <ul class="sup">
+                                <!-- <li>
+                                  <span>北京</span>
+                                  <span>25,179 <s class="icon-up"></s></span>
+                              </li>
+                              <li>
+                                  <span>河北</span>
+                                  <span>23,252 <s class="icon-down"></s></span>
+                              </li>
+                              <li>
+                                  <span>上海</span>
+                                  <span>20,760 <s class="icon-up"></s></span>
+                              </li>
+                              <li>
+                                  <span>江苏</span>
+                                  <span>23,252 <s class="icon-down"></s></span>
+                              </li>
+                              <li>
+                                  <span>山东</span>
+                                  <span>20,760 <s class="icon-up"></s></span>
+                              </li> -->
+                            </ul>
+                            <ul class="sub">
+                                <!-- <li><span></span><span> <s class="icon-up"></s></span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 </html>
+<script src="js/map.js"></script>
 <script src="js/index.js"></script>
